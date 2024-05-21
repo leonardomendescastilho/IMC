@@ -1,0 +1,73 @@
+:root{
+  font-size: 62.5%;
+
+  --clr-light: #FFF;
+  --clr-dark: #040924;
+  --clr-primary: #3214F5;
+  --clr-primary-accent: #150578;
+  --clr-secondary: #C6DAFB;
+  --clr-secondary-accent: rgba(160, 194, 248, 85%);
+  --clr-error: #c92c2c;
+
+  --fs-1: 3.2rem;
+  --fs-2: 1.6rem;
+  --fs-3: 1.4rem;
+
+  --lh-1: 4rem;
+  --lh-2: 2rem;
+  --lh-3: 1.8rem;
+
+  --fw-1: 700;
+  --fw-2: 500;
+  --fw-3: 400;
+}
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: var(--clr-dark);
+  font-family: 'roboto', 'sans serif';
+  font-size: 1.6rem;;
+}
+
+h1{
+  font-size: var(--fs-1);
+  font-weight: var(--fw-1);
+  line-height: var(--lh-1);
+  letter-spacing: 0.2px;
+}
+
+label{
+  font-size: var(--fs-3);
+  line-height: var(--lh-3);
+  font-weight: var(--fw-4);
+}
+input{
+  font-size: var(--fs-2);
+  line-height: var(--lh-2);
+  font-weight: var(--fw-3);
+}
+button{
+  font-size: var(--fs-2);
+  line-height: var(--lh-2);
+  font-weight: var(--fw-1);
+  border-radius: .4rem;
+  letter-spacing: 0.2px;
+  color: var(--clr-light);
+  background-color: var(--clr-primary);
+  all: unset;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover,
+button:focus{
+  background-color: var(--clr-primary-accent)
+
+}
