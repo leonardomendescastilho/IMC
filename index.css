@@ -2,12 +2,12 @@
 @import url('card.css');
 @import url('modal.css');
 
-.hidden{
-  visibility:hidden;
+.hidden {
+  visibility: hidden;
   opacity: 0;
 }
 
-.open{
+.open {
   visibility: visible;
   opacity: 1;
 }
